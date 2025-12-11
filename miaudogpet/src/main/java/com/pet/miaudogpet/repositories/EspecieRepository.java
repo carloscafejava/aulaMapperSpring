@@ -1,0 +1,7 @@
+package com.pet.miaudogpet.repositories;
+
+import com.miaudopt.api.model.Especie;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EspecieRepository extends JpaRepository<Especie, Integer> {
+}
